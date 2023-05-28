@@ -114,7 +114,7 @@ font-size: 16px;
 }
 .experiance-first-part h3{
     font-weight: 700;
-    font-size: 25px;
+    font-size: 22px;
 }
 .experiance-middle-part{
   display: grid;
@@ -122,10 +122,13 @@ font-size: 16px;
   
 }
 .experiance-first-part div{
+    border-radius: 10px;
+    /* border: 1px solid; */
+}
+.experiance-middle-part div{
     padding-left: 20px;
     padding-right: 20px;
-    border-radius: 10px;
-    box-shadow: 10px;
+    box-shadow: 10px 10px 10px 10px rgb(248, 246, 246);
 }
 
 .experiance-title{
@@ -141,4 +144,18 @@ font-size: 16px;
 .experiance-image img{
     width: 100%;
 }
-
+.experiance-btn{
+    font-weight: 700;
+    font-size: 40px;
+    padding: 20px;
+    color: white;
+    background: orange;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    left: 650px;
+    bottom: 120px;
+}
+.experiance-btn span{
+    font-size: 18px;
+}
