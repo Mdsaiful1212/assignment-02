@@ -1,8 +1,5 @@
 header{
-    position: absolute;
     width: 100%;
-    left: 0px;
-    top: 0px;
     background: rgba(255, 144, 14, 0.1);
 }
 nav{
@@ -53,4 +50,51 @@ nav a{
     margin-top: 20px;
     border-radius: 5px;
     padding-bottom: 20px;
+}
+
+
+
+.team-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.team-image-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 40%;
+}
+.team-image-content img{
+    width: 100%;
+}
+.team-heading{
+    width: 40%;
+    padding: 50px;
+}
+.quick-list{
+    font-size: 45px;
+    font-weight: 500;
+}
+.of-our{
+    font-weight: 700;
+}
+.feature{
+    font-weight: 700;
+    color: orange;
+}
+.team-heading p{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+}
+.team-heading button{
+    padding: 15px;
+    color: white;
+    border: none;
+    background: orange;
+    border-radius: 7px;
 }
