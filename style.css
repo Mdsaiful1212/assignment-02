@@ -218,3 +218,16 @@ font-size: 16px;
 .sponsor-content p{
     font-size: 16px;
 }
+footer{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+footer p{
+    width: 70%;
+    background: #f7d3d3;
+    padding: 30px;
+    border-radius: 5px;
+}
