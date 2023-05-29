@@ -9,6 +9,7 @@ nav{
 }
 
 .logo{
+    font-family: sans-serif;
     font-weight: 700px;
     font-size: 40px;
 }
@@ -24,7 +25,8 @@ nav a{
     text-align: center;
 }
 .banner-heading h1{
-    font-weight: 700px;
+    font-family:sans-serif;
+    font-weight: 700;
     font-size: 64px;
 }
 .banner-heading p{
@@ -132,6 +134,7 @@ font-size: 16px;
 }
 
 .experiance-title{
+    font-family: sans-serif;
     font-weight: 700;
     font-size: 40px;
     border-left: 5px solid orange;
@@ -212,6 +215,7 @@ font-size: 16px;
     margin-bottom: 20px;
 }
 .sponsor-content h2{
+    font-family: sans-serif;
     font-size: 40px;
     font-weight: 800;
 }
