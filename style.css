@@ -235,3 +235,58 @@ footer p{
     padding: 30px;
     border-radius: 5px;
 }
+
+@media screen and (max-width: 577px) {
+    header{
+        width: 100%;
+    }
+    nav{
+      display: flex;
+      flex-direction: column; 
+    }
+    nav a{
+        display: block;
+        background: orange;
+        padding: 10px;
+    }
+    .team-container{
+        flex-direction: column;
+    }
+    .team-image-content{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+    .expreriance-main-content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .experiance-content{
+        width: 100%;
+    }
+    .experiance-image{
+        width: 100%;
+        margin-left: 0;
+    }
+    .experiance-btn{
+        position: relative;
+        left: 0;
+    }
+    
+    .rating-container{
+        flex-direction: column;
+    }
+    .sponsor-image{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .sponsor-image img{
+        width: 100%;
+    }
+    footer p{
+        color: white;
+        background: #000;
+    }
+
+}
